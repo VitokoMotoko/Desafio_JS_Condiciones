@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.stickers-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sticker {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.sticker img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    width: 50px;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styles for the back link */
+.back-link {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
